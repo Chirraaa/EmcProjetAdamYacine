@@ -4,6 +4,8 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background: #1a1a1a;
     color: #fff;
+    height: 100%;
+    width: 100%;
 }
 
 nav {
@@ -165,7 +167,6 @@ header .content {
     text-align: center;
 }
 
-
 .row {
     display: grid;
     justify-items: start;
@@ -291,6 +292,12 @@ footer ul li:nth-child(1) {
     .row img {
         width: 100%;
     }
+    .overlay{
+        max-width: 1398px;
+    }
+    body{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -299,4 +306,5 @@ footer ul li:nth-child(1) {
     .projects {
         font-size: 14px;
     }
+
 }
